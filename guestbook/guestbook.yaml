@@ -9,7 +9,8 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/lm-academy/argocd-example-apps.git
+#    repoURL: https://github.com/lm-academy/argocd-example-apps.git
+    repoURL: https://github.com/aleksamb99/argocd.git
     targetRevision: HEAD
     path: guestbook
 
