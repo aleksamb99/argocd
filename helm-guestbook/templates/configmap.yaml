@@ -4,3 +4,4 @@ metadata:
   name: mychart-configmap
 data:
   myvalue: "Hello World"
+  ndvalue: "Goodbye"
