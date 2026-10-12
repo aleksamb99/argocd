@@ -8,14 +8,12 @@ metadata:
 spec:
   project: default
   syncPolicy:
-    automated: {}
+    automated:
+      prune: true
 
   source:
-#    repoURL: https://github.com/lm-academy/argocd-example-apps.git
     repoURL: https://github.com/aleksamb99/argocd.git
-#    path: guestbook
     targetRevision: HEAD
-#    repoURL: https://github.com/argoproj/argocd-example-apps
     path: helm-guestbook
     helm:
       valueFiles:
